@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h1 .christmas {
+    color: red
+}
+
+h1 .images {
+    color: green;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(255, 111, 0)
+}
+.picture {
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+img{
+    width: 100%;
+    height: 90vh;
+  
+}
+
+.closed {
+    display: none;
+}
+
+.open-1 {
+    display: none;
+}
+.open-2 {
+    display: none;
+}
+.open-3 {
+    display: none;
+}
+.open-4 {
+    display: none;
+}
+.open-5 {
+    display: none;
+}
+.active {
+    display: block;
+}
